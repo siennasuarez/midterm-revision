@@ -1,0 +1,303 @@
+@font-face {
+  font-family: consistant;
+  src: url("./arcadeclassic/ARCADECLASSIC.TTF");
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: consistant;
+}
+.mainlayout {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+h3 {
+
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px;
+}
+.profile {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: rgb(9,9,121);
+  background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.left-column {
+  width: 30%;
+  padding-right: 20px;
+ 
+}
+.right-column {
+  width: 70%;
+  padding-left: 20px;
+}
+.sectionOfInfo {
+  margin-bottom: 20px;
+}
+.friends {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.friends > div {
+  flex-basis: 22%;
+  text-align: center;
+}
+
+.friends > div > a > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.friends > div > a > p {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  border: 1px solid #FF1493;
+  margin-bottom: 10px;
+}
+.interactions button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  backgrond:linear-gradient(45deg, #ee9ca7 0%, #ffdde1 100%);
+  border: 1px solid #FF1493;
+}
+
+#valentina1{
+  background-image: url("./valentina/valetinabackg.jpg"); /*body*/
+}
+
+#valentina2{
+  background: rgb(254,46,209);
+  background: radial-gradient(circle, rgba(254,46,209,1) 0%, rgba(238,174,202,1) 100%); /*MAIN LAYOUT*/
+}
+
+#valentina3{
+background-color: hotpink; /*header*/
+}
+
+#valentina4{
+ border-right: 1px solid #FFB6C1; /*left column*/
+}
+
+#nora1{
+background-image: url("./nora/21.jpg"); /*body*/
+}
+
+#nora2{
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,0,0,0.46124387254901966) 100%);
+}
+
+#nora3{
+background-color: #660000;
+}
+
+#nora4{
+ border-right: 1px solid #FEBE10; /*left column*/
+}
+
+#skull{
+  font-size: 25px;
+}
+
+#adamari1{
+background-image: url("./adamari/adamariback.jpeg");
+}
+
+#adamari2{
+  background: radial-gradient(circle, rgb(128, 0, 128), rgb(255, 192, 203));
+}
+
+#adamari3{
+  background: radial-gradient(circle, #a8caba 0%, #5d4157 100%);
+}
+
+#adamari4{
+border-right: 1px solid #01411C
+}
+
+#flower{
+  font-size: 12px;
+}
+
+#naomi1{
+  background-image: url("./naomi/IMG_8814.jpeg");
+}
+
+#naomi2{
+background: rgb(0,255,4);
+background: radial-gradient(circle, rgba(0,255,4,0.23295255602240894) 0%, rgba(2,6,3,1) 100%);
+}
+
+#naomi3{
+background-color: #A51C30;
+}
+
+#naomi4{
+  border-right: 1px solid white;
+}
+
+#talia1{
+  background-image: url("./nora/nora2.jpg");
+}
+
+#talia2{
+  background: rgb(0,255,4);
+  background: radial-gradient(circle, rgba(0,255,4,0.23295255602240894) 0%, rgba(254,16,206,0.4640449929971989) 100%);
+}
+
+#talia3{
+ background: rgb(238,143,8); 
+ background: linear-gradient(0deg, rgba(238,143,8,1) 0%, rgba(233,233,233,1) 50%, rgba(238,143,8,0.8477984943977591) 100%);
+}
+
+#talia4{
+   border-right: 1px solid #ee8f08
+}
+
+#emphasis{
+  font-size: 40px;
+}
+
+#homepage{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: consistant;
+}
+
+.navigation, .logo{
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  color: white;
+}
+
+.navLinks > p, .search > p, .accountInfo > p {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: white;
+}
+
+.clickables{
+  background-color: 020024;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.options, .results{
+  color: #wheat;
+  margin-bottom: 10px;
+}
+
+.options > h2, .results > h2{
+  color: #white;
+  margin-bottom: 10px;
+}
+
+.options > p, .results > p{
+  margin-bottom: 5px;
+}
+
+.homeprofiles .peopleToClick {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.homeprofiles .peopleToClick > div {
+    width: 200px;
+    text-align: center; 
+}
+
+.homeprofiles .peopleToClick > img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
+}
+
+.peopleToClick> div > a > p {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+/* ADDING MEDIA QUEEERRRRRRies lolz */
+
+@media only screen and (max-width: 640px) {
+    body {
+        padding: 10px;
+    }
+
+    .mainlayout, .navigation, .homeprofiles .peopleToClick, .profile, .friends {
+        width: 100%; 
+        margin: auto;
+        padding: 10px 0; 
+        flex-direction: column; 
+    }
+
+    header, .sectionOfInfo h3, .navLinks > p, .accountInfo > p, .options > h2, .results > h2 {
+        font-size: 24px; 
+    }
+
+    .profile img, .friends > div > a > img, .homeprofiles .peopleToClick > img {
+        width: auto;
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .left-column, .right-column {
+        width: 100%; 
+        padding: 10px 0; 
+        border-right: none; 
+    }
+
+    .friends > div, .homeprofiles .peopleToClick > div {
+        flex-basis: 100%; 
+    }
+
+    .navigation, .clickables, .options, .results {
+        flex-direction: column; 
+    }
+
+    .navLinks > p, .search > p, .accountInfo > p, .options > p, .results > p {
+        display: block; 
+        margin: 5px auto; 
+    }
+
+}
