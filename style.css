@@ -259,7 +259,7 @@ background-color: #A51C30;
 
 /* ADDING MEDIA QUEEERRRRRRies lolz */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 400px) {
     body {
         padding: 10px;
     }
