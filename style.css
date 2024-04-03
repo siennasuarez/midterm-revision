@@ -289,6 +289,7 @@ background-color: #A51C30;
 
     .friends > div, .homeprofiles .peopleToClick > div {
         flex-basis: 100%; 
+        text-align: center;
     }
 
     .navigation, .clickables, .options, .results {
@@ -299,5 +300,14 @@ background-color: #A51C30;
         display: block; 
         margin: 5px auto; 
     }
+
+    .profile img, .friends > div > a > img, .homeprofiles .peopleToClick > img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        display: block; 
+        margin: auto;
+    }
+
 
 }
